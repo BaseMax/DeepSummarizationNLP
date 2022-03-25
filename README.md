@@ -17,6 +17,14 @@ $ python app.py
 | GitLab Inc. is the open-core company that provides GitLab, the DevOps software that combines the ability to develop, secure, and operate software in a single application. The open source software project was created by Ukrainian developer Dmitriy Zaporozhets and Dutch developer Sytse Sijbrandij. | GitLab Inc. |
 | Git is software for tracking changes in any set of files, usually used for coordinating work among programmers collaboratively developing source code during software development. Its goals include speed, data integrity, and support for distributed, non-linear workflows. | Git is an open-source software project developed by the Massachusetts Institute of Technology (MIT). |
 
+## Setup
+
+```
+$ pip install torch==1.8.2+cu111 torchvision==0.9.2+cu111 torchaudio===0.8.2 -f https://download.pytorch.org/whl/lts/1.8/torch_lts.html
+$ pip install transformers
+$ pip install sentencepiece
+```
+
 ## Sources
 
 - https://github.com/google/sentencepiece#installation
